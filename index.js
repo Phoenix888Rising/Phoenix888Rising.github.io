@@ -1,7 +1,9 @@
 ;(function(){
-  let elem = document.getElementsByTagName('img')[0];
+  let els = document.getElementsByTagName('img');
   console.log(elem);
-  elem.addEventListener('click', function(e){
-    e.target.parentNode.removeChild(e.target);
+  els.forEach(function(el,k){
+    el.addEventListener('click', function(e){
+      e.target.parentNode.removeChild(e.target);
+    });
   });
 })();
