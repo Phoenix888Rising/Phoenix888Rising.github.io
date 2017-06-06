@@ -10,7 +10,7 @@
 //})();
 
 ;(function(){
-  let els = document.querySelectorAll('img');
+  let els = document.querySelectorAll('img:nth-child(odd)');
   els.forEach(function(el,k){
     el.addEventListener('click', function(e){
       e.target.parentNode.removeChild(e.target);
