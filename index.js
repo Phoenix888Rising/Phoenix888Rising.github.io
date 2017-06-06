@@ -24,7 +24,7 @@
   function joiner (...args) { return args.join(""); }
   
   document.querySelector("h1").innerText = joiner(
-    "Hello, "
+    "Hello, ",
     prompt("What's your name?"),
     "!! ",
     document.querySelector("h1").innerText,
