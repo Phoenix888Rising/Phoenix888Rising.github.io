@@ -10,7 +10,7 @@
 //})();
 
 ;(function(){
-  let els = document.querySelectorAll('img[src=https://media.giphy.com/media/ci0uDcGQtBh0k/giphy.gif]');
+  let els = document.querySelectorAll("img[src='https://media.giphy.com/media/ci0uDcGQtBh0k/giphy.gif']");
   els.forEach(function(el,k){
     el.addEventListener('click', function(e){
       e.target.parentNode.removeChild(e.target);
