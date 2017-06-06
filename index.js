@@ -24,9 +24,10 @@
   function joiner (...args) { return args.join(""); }
   
   document.querySelector("h1").innerText = joiner(
-    document.querySelector("h1").innerText,
-    ", ",
+    "Hello, "
     prompt("What's your name?"),
-    "!!"
+    "!! ",
+    document.querySelector("h1").innerText,
+    "!"
   );
 })();
