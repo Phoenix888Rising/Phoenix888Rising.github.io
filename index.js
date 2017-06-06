@@ -17,3 +17,11 @@
     });
   });
 })();
+
+;(function(){
+  let newEl = document.createElement("span");
+  let txt = prompt("What's your name?");
+  newEl.innerText = `, ${txt}!`;
+  let h1 = document.querySelector("h1");
+  h1.appendChild(newEl);
+})();
