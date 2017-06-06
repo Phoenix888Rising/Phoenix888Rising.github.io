@@ -18,6 +18,15 @@
   });
 })();
 
+
 ;(function(){
-  document.querySelector("h1").innerText += ", "+prompt("What's your name?")+"!!";
+  
+  function joiner (...args) { return args.join(""); }
+  
+  document.querySelector("h1").innerText = joiner(
+    document.querySelector("h1").innerText,
+    ", ",
+    prompt("What's your name?"),
+    "!!"
+  );
 })();
