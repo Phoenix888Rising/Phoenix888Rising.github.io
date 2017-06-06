@@ -7,3 +7,7 @@ selector {
 body h1 {
   background: pink;
 }
+
+img:nth-child(even) {
+  outline: 3px solid blue;
+}
