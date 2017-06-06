@@ -1,3 +1,4 @@
 ;(function(){
-  alert("welcome");
+  let elem = document.getElementsByTagName('img');
+  console.log(elem);
 })();
