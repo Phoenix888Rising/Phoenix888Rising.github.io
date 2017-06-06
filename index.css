@@ -8,6 +8,6 @@ body h1 {
   background: pink;
 }
 
-img[src=https://media.giphy.com/media/ci0uDcGQtBh0k/giphy.gif] {
+img[src='https://media.giphy.com/media/ci0uDcGQtBh0k/giphy.gif'] {
   outline: 3px solid blue;
 }
